@@ -8,6 +8,9 @@ int silnia(int n) {
 
 
 int main() {
-    cout << "Projekt 1 - Menu Główne" << endl;
+    int liczba;
+    cout << "Podaj liczbę do obliczenia silni: ";
+    cin >> liczba;   
+    cout << "Silnia wynosi: " << silnia(liczba) << endl;
     return 0;
 }
