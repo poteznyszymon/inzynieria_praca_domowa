@@ -20,5 +20,12 @@ int main() {
     cout << "Podaj liczbę do obliczenia silni: ";
     cin >> liczba;
     cout << "Silnia wynosi: " << silnia(liczba) << endl;
-    return 0;
+
+   cout << "Podaj liczbę do sprawdzenia: ";
+   cin >> liczba;
+   if (czyPierwsza(liczba))
+       cout << "Liczba jest pierwsza" << endl;
+   else
+       cout << "Liczba nie jest pierwsza" << endl;
+   return 0;
 }
